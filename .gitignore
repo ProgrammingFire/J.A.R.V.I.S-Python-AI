@@ -1,3 +1,4 @@
 /.idea/
 /__pycache__/
+.vscode
 pywhatkit_dbs.txt
