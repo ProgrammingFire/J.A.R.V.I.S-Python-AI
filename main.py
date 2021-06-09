@@ -139,7 +139,6 @@ if __name__ == '__main__':
         elif 'go to sleep' in query:
             speak("Okay , I'am Going")
             exit()
-            print("Program Closed")
 
         elif "the time" in query:
             time = datetime.datetime.now().strftime("%H:%M")
@@ -171,7 +170,7 @@ if __name__ == '__main__':
             except Exception as e:
                 print(e)
 
-elif "you are mad" in query:
-    speak("Sir , First Think That , Who made me")
+        elif "you are mad" in query:
+            speak("Sir , First Think That , Who made me")
 
     # You Can Add So Much Query And Can Send It To https://programmingfire.com/Contacts/
